@@ -1,0 +1,55 @@
+html {
+	background: #f2f2f2;
+
+}
+h1, h2 {
+	font-family: 'Lobster';
+	position: relative;
+	display: block;
+	text-align: center;
+	font-size: 6em;
+	margin: 0 auto 0 auto;
+}
+h2 {
+	font-size: 3em;
+}
+#main {
+	background: #FFF;
+	border: 1px solid black;
+	height: 512px;
+	width: 512px;
+	margin: 60px auto;
+	margin-bottom: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+	line-height: 0;
+
+	/*flex-wrap: wrap;
+	/*flex-flow: row wrap;*/
+	
+}
+#main >div {
+	/*border: 1px solid black;*/
+	display: inline-block;
+	/*height: auto;
+	width: auto;
+	/*max-height: 3em;
+	max-width: 3em;*/
+	
+	position: relative;
+	
+}
+button {
+	margin: 10px auto;
+	border: none;
+	position: relative;
+	width:20%;
+	height: 40px;
+	font-family: 'Lobster', cursive;
+	display: block;
+	font-size: 20px;
+}
+button p {
+	margin-top: 5px;
+}
